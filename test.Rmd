@@ -1,0 +1,71 @@
+---
+  html_document:
+    theme: NULL
+    highlight: NULL
+
+
+---
+
+<style type="text/css">
+@import url("J:/jcardenase/bootstrap.min.css");
+</style>
+——
+
+
+
+
+<div class="panel panel-success">
+  <div class="panel-heading">
+    <h3 class="panel-title">Trabajo Extra</h3>
+  </div>
+  <div class="panel-body">
+    Johann S. Cárdenas E - 1053852564
+  </div>
+</div>
+
+<h1>Trabajo Extra</h1>
+<blockquote>
+  <p>[EDAED]</p>
+  <small><cite title="c">Johann S. Cárdenas E - 1053852564</cite></small>
+</blockquote>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<div class="container">
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+<div class="progress progress-striped active">
+
+    <div class="progress-bar progress-bar-success" style="width: 35%"></div>
+  <div class="progress-bar progress-bar-warning" style="width: 20%"></div>
+  <div class="progress-bar progress-bar-danger" style="width: 10%"></div>
+  </div>
+</div>
+
+<div class="jumbotron">
+```{r cars}
+summary(cars)
+```
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-success" style="width: 35%"></div>
+  <div class="progress-bar progress-bar-warning" style="width: 20%"></div>
+  <div class="progress-bar progress-bar-danger" style="width: 10%"></div>
+</div>
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+</div >
